@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+
+        System.out.println("enter no.: ");
+        Scanner V = new Scanner(System.in);
+        int a = V.nextInt();
+        if(a%2 == 0){
+            System.out.println("even no.");
+        }
+        else {
+            System.out.println("odd no.");
+
+        }
+
+    }
+}
