@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Enter 2 no.s :");
+        Scanner v =new Scanner(System.in);
+        int a = v.nextInt();
+        int b = v.nextInt();
+         a = a+b;
+         b =  a-b;
+         a = a - b;
+         System.out.println(a);
+        System.out.println(b);
+
+
+    }
+}
