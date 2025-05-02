@@ -10,15 +10,17 @@ public class Main {
         int b = in.nextInt();
         int c = in.nextInt();
 
-        if( a>b && b>c ){
-            System.out.println("a is largest");
-        } else if (b>a && b>c) {
-            System.out.println("b is largest");
-        }
-        else {
-            System.out.println("c is largest");
-        }
-
+        // if( a>b && b>c ){
+         //   System.out.println("a is largest");
+        //} else if (b>a && b>c) {
+          //  System.out.println("b is largest");
+        //}
+        //else {
+          //  System.out.println("c is largest");
+        //}
         
+       int max = Math.max(c,Math.max(a,b));
+       System.out.println(max);
+
     }
 }
