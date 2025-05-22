@@ -13,11 +13,11 @@ public class ElectricityBill
         {
             bill = (float)(n*3);
         }
-        else if(n<=400){
-            bill = (float)(n*6.5);
+        else if(n>100 && n<=400){
+            bill = (float)(3*100 + (n-100)*6.5);
         }
         else {
-            bill = (float)(n*8);        
+            bill = (float)((3*100) +(300*6.5) + (n-400)*8);        
             }
            System.out.println(bill);
 
