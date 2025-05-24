@@ -1,5 +1,6 @@
 import java.util.scanner;
-public class sum{
+
+public class Sum{
  public static void main(string[] args){
    scanner input = new Scanner(system.in);
    int num1 = input.nextInt();
